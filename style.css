@@ -12,6 +12,14 @@
     background-size: cover;
     position: relative;
 }
+.logo{
+  font-size: 55px;
+  font-family: 'Quantico', sans-serif;
+  color: #bdc3c7;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color:#f1c40f;
+  
+}
 nav{
     display: flex;
     padding: 2% 6%;
@@ -23,7 +31,7 @@ nav a{
     font-family: verdana;
     font-weight: 700;
     text-decoration: none;
-    color:#17acf1;
+    
 }
 .nav-links{
     flex: 1;
@@ -420,7 +428,7 @@ p{
   }
   .title{
     text-align: center;
-    font-family: sans-serif;
+    font-family: Verdana;
   }
   .title::before{
     content: '';
